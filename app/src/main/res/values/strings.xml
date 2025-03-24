@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practico U2</string>
+    <string-array name="tipo_habitacion">
+        <item>Estandar</item>
+        <item>Deluxe</item>
+        <item>Suite</item>
+    </string-array>
+
+    <string-array name="opciones_si_no">
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+</resources>
