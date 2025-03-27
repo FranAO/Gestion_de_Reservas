@@ -9,7 +9,7 @@ public class HabitacionDeluxe extends Reserva
         return accesoLounge;
     }
 
-    public double isServicioGourmet() {
+    public double getServicioGourmet() {
         return servicioGourmet;
     }
 
@@ -22,7 +22,7 @@ public class HabitacionDeluxe extends Reserva
 
     public double calcularTotal ()
     {
-        return tarifaBase * numeroNoches + (accesoLounge ? 50 : 0) + servicioGourmet;
+        return super.calcularTotal() + (accesoLounge ? 50 : 0) + servicioGourmet;
     }
 
     @Override

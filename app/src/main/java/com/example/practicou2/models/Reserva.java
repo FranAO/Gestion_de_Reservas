@@ -38,7 +38,7 @@ public class Reserva
     }
     public double calcularTotal ()
     {
-        return tarifaBase;
+        return tarifaBase * numeroNoches;
     }
 
     public String mostrarDetalles ()

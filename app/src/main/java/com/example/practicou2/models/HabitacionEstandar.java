@@ -16,7 +16,7 @@ public class HabitacionEstandar extends Reserva
 
     public double calcularTotal ()
     {
-        return tarifaBase * numeroNoches + costoExtraDesayuno;
+        return super.calcularTotal() + costoExtraDesayuno;
     }
 
     @Override

@@ -22,7 +22,7 @@ public class Suite extends Reserva
 
     public double calcularTotal ()
     {
-        return tarifaBase * numeroNoches + (numeroSalas * 100) + servicioPersonalizado;
+        return super.calcularTotal() + (numeroSalas * 100) + servicioPersonalizado;
     }
 
     @Override
